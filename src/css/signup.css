@@ -1,0 +1,56 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.559);
+  padding: 2rem;
+  padding-top: 3rem;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.signup-container > input {
+  width: 20rem;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.894);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.signup-container > button {
+  background-color: rgba(0, 0, 0, 0.894);
+  width: fit-content;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.894);
+  transition: all 0.3s;
+  margin-top: -1rem;
+}
+
+.signup-container > button:hover {
+  background-color: rgba(255, 255, 255, 0.559);
+  color: black;
+}
+
+.signup-container > p {
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  color: black;
+}
+
+.signup-container > p > a {
+  color: rgb(0, 81, 255);
+  text-decoration: none;
+}
